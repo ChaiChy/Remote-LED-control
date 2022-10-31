@@ -4,8 +4,8 @@
 #include <ESP8266WebServer.h>
 
 // network credentials
-const char *ssid = "DoubleD";
-const char *password = "DoubleD3141";
+const char *ssid = "enter your wifi name here";
+const char *password = "enter your password here";
 
 bool ledOn = false;
 
