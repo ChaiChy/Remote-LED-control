@@ -26,9 +26,7 @@ unsigned long timeout = 2000;
 
 void handleRoot()
 {
-  digitalWrite(outputLED, HIGH);
-  server.send(200, "text/plain", "hello niqqa\r\n");
-  digitalWrite(outputLED, LOW);
+  server.send(200, "text/plain", "hello m8\r\n");
 }
 
 void handleLED()
